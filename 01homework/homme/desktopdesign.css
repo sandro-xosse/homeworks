@@ -1,0 +1,129 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    max-width: 500px;
+    height: 980px;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background:url(desktop/image-header.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+
+main{
+    border:1px solid orangered;
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.food{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.firs, .second, .third{
+    height: 120px;
+}
+
+.first{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.egg .brand{
+    width: 50%;
+}
+
+.brand{
+    height: 150px;
+    width: 200px;
+}
+.egg{
+    background-image: url(desktop/image-transform.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.food>div{
+    width: 100%;
+    display: flex;
+}
+
+.cup{
+    background-image: url(desktop/image-stand-out.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.text{
+    width: 100%;
+    height: 200px;
+}
+
+.drink{
+    border: 1px solid blueviolet;
+    display: flex;
+    width: 100%;
+    height: 120px;
+}
+
+.milk{
+    background-image: url(desktop/image-gallery-milkbottles.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 25%;
+}
+
+.orange{
+    background-image: url(desktop/image-gallery-orange.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 25%;
+}
+
+.icecream{
+    background-image: url(desktop/image-gallery-cone.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 25%;
+}
+
+.shugar{
+    background-image: url(desktop/image-gallery-sugarcubes.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 25%;
+}
+
+.drink>div{
+    width: 25%;
+    border:1px solid black
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(79, 213, 79);
+}
